@@ -1,0 +1,66 @@
+# Site settings
+title: "Fabian Meyer-Theobaldy, M.A. | Resume"
+description: "Lebenslauf von Fabian Meyer-Theobaldy"
+
+# Build settings
+markdown: kramdown
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Resume settings
+resume_avatar:                  "true"
+resume_name:                    "Fabian Meyer-Theobaldy"
+resume_title:                   "Head of Corporate Communications"
+
+# used for the contact button in _layouts/resume.html
+resume_contact_email:           "hallo@fabian-mt.de"
+
+# the next two items are used for schema itemprops in _layouts/resume.html
+resume_contact_telephone:       "0171 28 73 342"
+resume_contact_address:         "Lechstr. 3c, 84036 Landshut"
+
+resume_header_contact_info:     "Lechstr. 3c, 84036 Landshut • hallo@fabian-mt.de"
+display_header_contact_info:    "true"
+
+resume_header_intro: "<p>Führungskraft in der Unternehmenskommunikation mit über zehn Jahren Erfahrung in der internen und externen Kommunikation von B2B-Unternehmen. Mein Fokus liegt auf der Verknüpfung von strategischer Kommunikation mit modernen, digitalen Redaktionsprozessen. Ich nutze KI nicht als Ersatz für Inhalte, sondern als integralen 'digitalen Redakteur' zur Effizienzsteigerung und Qualitätssicherung, um Freiräume für echte Beziehungen und exzellente Inhalte zu schaffen. Erfahren in Change-Prozessen, CEO-Positioning und der Führung von Teams in einem sich wandelnden Medienumfeld.  </p>"
+
+# use "yes" to display the email contact button,
+# "no" to display an "I'm not looking for work" message,
+# or remove the resume_looking_for_work option entirely
+# to leave blank
+resume_looking_for_work:        "yes"
+
+# Decide which sections to use
+# comment out to hide
+resume_section_experience:      true
+resume_section_education:       true
+# resume_section_projects:        true
+resume_section_skills:          true
+# resume_section_recognition:     true
+resume_section_links:           true
+# resume_section_associations:    true
+# resume_section_interests:       true
+
+# Resume social links
+# uncomment the options you wish to display, and add your own URL
+resume_social_links:
+  resume_github_url:            # "https://github.com/jglovier/resume-template"
+  resume_twitter_url:           # "http://twitter.com/jglovier"
+  resume_dribbble_url:          # "https://dribbble.com/jag"
+  # resume_facebook_url:          "insert Facebook URL here"
+  resume_linkedin_url:          "https://www.linkedin.com/in/fabian-meyer-theobaldy/"
+  # resume_instagram_url:         "insert your Instagram URL here"
+  resume_website_url:           "https://fabian-mt.de"
+  resume_medium_url:            # "https://medium.com/@jglovier"
+resume_print_social_links:      true
+
+# Design settings
+resume_theme:                   default
+
+url: "https://sober3333.github.io"
+baseurl: "/fabian-cv"
+
+# Note: when editing locally, remember to restart
+# your Jekyll server when you edit this file. Changes
+# to _config.yml are only recognized when the server starts
